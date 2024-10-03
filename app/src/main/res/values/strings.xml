@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Workout</string>
+    <string name="bienvenido_a_workout">Bienvenido a Workout!</string>
+    <string name="btnSiguiente">Siguiente</string>
+
+    <string name="inicio_de_sesion">Inicio de Sesion</string>
+    <string name="correo">Correo</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="btnIngresar">Iniciar Sesion</string>
+    <string name="o">o</string>
+    <string name="btnRegistrar">Registrar</string>
+
+    <string name="registro">Registro</string>
+    <string name="nombre">Nombre</string>
+    <string name="confirmacion">Confirmar Contraseña</string>
+
+    <string name="niveles">Niveles</string>
+    <string name="feed">Feed</string>
+    <string name="calendario">Calendario</string>
+    <string name="cerrar_sesion">Cerrar Sesion</string>
+    <string name="usuario">gaston@gmail.com</string>
+    <string name="abrir_drawer">Drawer Abierta</string>
+    <string name="cerrar_drawer">Drawer Cerrada</string>
+
+    <string name="nivel_basico">Nivel Basico</string>
+    <string name="ejercicio_basico">Ejercicios Basicos</string>
+    <string name="abdominales">Abdominales</string>
+    <string name="min2">18 Min</string>
+    <string name="o2">0 Min</string>
+    <string name="o3">-</string>
+    <string name="btnagregar">Agregar</string>
+    <string name="btnagregar2">+</string>
+    <string name="oo">-></string>
+    <string name="agregar_ejercicio">Agregar Ejercicio</string>
+    <string name="pierna">Pierna</string>
+    <string name="ejercicio">Ejercicios</string>
+    <string name="min1">20 Min</string>
+
+    <string name="ejercicio_0">Ejercicio</string>
+    <string name="registro_ejercicio">Registro de Ejercicios</string>
+    <string name="sentadilla">Sentadilla</string>
+    <string name="o4">X20</string>
+    <string name="o5">X25</string>
+    <string name="walking">Walking luge</string>
+    <string name="registro_x">X</string>
+
+    <string name="tarea">Agrega nueva Tarea</string>
+    <string name="tarea1">Tarea</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="nivel_intermedio">Nivel Intermedio</string>
+    <string name="nivel_avanzado">Nivel Avanzado</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
