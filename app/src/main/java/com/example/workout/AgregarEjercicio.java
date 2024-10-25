@@ -1,9 +1,13 @@
 package com.example.workout;
 
+import static android.app.Activity.RESULT_OK;
+
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -11,6 +15,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
+
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -18,6 +26,8 @@ import android.widget.Button;
  * create an instance of this fragment.
  */
 public class AgregarEjercicio extends Fragment {
+    static final int REQUEST_IMAGE_CAPTURE = 1;
+    private StorageReference mStorage;
 
     Button btn2;
 
@@ -64,6 +74,19 @@ public class AgregarEjercicio extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
+        }
+
+        mStorage = FirebaseStorage.getInstance().getReference();
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK){
+            Bundle extras = data.getExtras();
+            Bitmap imageBitmap = (Bitmap) extras.get("data");
+            //ImageView imageView2 = (ImageView) findViewById(R.id.imageView2);
+            //imageView2.setImageBitmap(Bitmap.createScaledBitmap(imageBitmap, 500, 500, false));
         }
     }
 
