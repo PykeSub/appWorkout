@@ -124,8 +124,8 @@ public class EjercicioBasico extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void Ejercicio1(View v){
-        Intent i = new Intent(this, Ejercicio1.class);
+    public void Ejercicio2(View v){
+        Intent i = new Intent(this, Ejercicio2.class);
         startActivity(i);
     }
 }

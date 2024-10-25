@@ -86,7 +86,7 @@ public class RegistroEjercicio extends Fragment {
     }
 
     //public void ejercicioRegistrado(View v){
-        //Intent i = new Intent(this, Ejercicio1.class);
+        //Intent i = new Intent(this, Ejercicio2.class);
     //}
 
 }

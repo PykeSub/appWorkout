@@ -16,22 +16,13 @@
         android:theme="@style/Theme.Workout"
         tools:targetApi="31">
         <activity
-            android:name=".Ejercicio1"
+            android:name=".Ejercicio2"
             android:exported="false" />
         <activity
             android:name=".EjercicioBasico"
             android:exported="false" />
         <activity
-            android:name=".Agregar"
-            android:exported="false" />
-        <activity
             android:name=".principal4"
-            android:exported="false" />
-        <activity
-            android:name=".borrador"
-            android:exported="false" />
-        <activity
-            android:name=".principal3"
             android:exported="false" />
         <activity
             android:name=".registro"
